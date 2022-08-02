@@ -470,6 +470,66 @@ a.fa-brands{
     }
 }
 
+@media screen and (max-width: 375px){
+    h1{
+        font-size: 1.3rem;
+    }
+    ul.navbar li{
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+
+    form{
+        flex-direction: column;
+        
+    }
+
+    input[type="submit"]{
+        margin-top: 10px;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .testimonial-section{
+        margin-left: -10px;
+    }
+
+    .testimonial-card{
+        width: 100%;
+        height: 300px;
+    }
+
+    .testimonial-desc img{
+        position: relative;
+        top: -30px;
+        left: -10px;
+    }
+
+    .testimonial-desc p{
+        width: 60%;
+        margin-top: -20px;
+        margin-left: 5px;
+    }
+
+    .profile-wrapper{
+        margin-top: 45px;
+    }
+
+    footer .logo{
+        margin-top: -80px;
+        margin-left: 50px;
+        margin-bottom: 90px;
+    }
+
+    .social-links{
+        width: 100%;
+    }
+
+    .footer-bottom{
+        display: none;
+    }
+}
+
 
 
 
